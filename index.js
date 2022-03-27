@@ -8,8 +8,8 @@ button2.addEventListener('click', deleteall)
 const totalmoney = document.querySelector('.totalmoney');
 const extramoney = document.querySelector('.extramoney')
 function deleteall(event){
-document.getElementsByClassName('abc')[0].value=''
-document.getElementsByClassName('ab')[0].value=''
+document.getElementByClassName('abc')[0].value=''
+document.getElementByClassName('ab')[0].value=''
 }
 function convert(event) {
 const vybor2 = vybor.value;
